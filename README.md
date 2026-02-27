@@ -20,6 +20,19 @@ You can install all dependencies using:
 pip install geopandas pandas numpy scipy scikit-learn rasterio
 ```
 
+# pipeline
+1-Load building shapefile and hazard CSV.
+
+2-Assign nearest hazard values (rainfall, wind) to each building.
+
+3-Normalize numeric values.
+
+4-Calculate exposure score using weighted sum.
+
+5-Save output CSV.
+
+final output dataframe
+<img width="839" height="209" alt="image" src="https://github.com/user-attachments/assets/51aabf7a-9aa8-4e9f-8c80-7139315f5796" />
 
 
 
